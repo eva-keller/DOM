@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Learning the DOM</title>
+  </head>
+
+  <body>
+    <h1>Document Object Model</h1>
+    <a id="nav" href="index.html">Home</a>
+  </body>
+
+  <script>
+    document.body;
+    document.body.style.backgroundColor = 'olive';
+    document.getElementById('nav');
+    navLink = document.getElementById('nav'); //assign it to a variable
+    navLink.href = 'https://www.wikipedia.org'; // where the link goes
+    navLink.textContent = 'Navigate to Wikipedia';  // change the text
+  </script>
+
+</html>
